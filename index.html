@@ -49,15 +49,16 @@
 
         <div class="campo">
             <label for="senioridade"><strong>Senioridade</strong></label>
-            <select id="senioridade"></select>
+            <select id="senioridade">
             <option selected disabled value="">Selecione</option>
             <option>Junior</option>
             <option>Pleno</option>
             <option>Senior</option>
+        </select>
         </div>
 
         <fieldset class="grupo">
-            <div>
+            <div id="check">
                 <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
                 <input type="checkbox" id="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
@@ -76,7 +77,7 @@
             </div>
         </fieldset>
 
-        <div>
+        <div class="campo">
             <br>
             <label><strong>Conte um pouco da sua experiência:</strong></label>
             <textarea name="experiencia" id="experiencia" style="width: 26em" rows="6"></textarea>
