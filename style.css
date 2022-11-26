@@ -27,6 +27,7 @@ body{
     font-size: 1em;
     color: #704ae2;
     margin-left: 36%;
+    margin-right: ;
     margin-top: 2%;
     justify-content: center;
 }
@@ -80,10 +81,7 @@ fieldset.grupo .campo{
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
     text-shadow: 1px 1px 1px black;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
+    margin-left: 24%;
     transform: translate(-50%, -50%);
 }
 
